@@ -423,20 +423,22 @@ text-decoration: underline;
 
 }
 .getA-Loan-middleSection{
-    border:solid #ab2656;
-    width: 500px;
-    margin: auto;   
+    width: 400px;
     max-height: max-content;
     height: 600px;
     border-radius:  30px 0;
-    padding: 15px;
+   padding: 0px 10px 10px;
+   
+  
+    
+    
 }
 .arow-backdiv{
-    margin-top: 20px;
+    margin-top: 10px;
    
 }
 .arow-backdiv img{
-    width: 45px;
+    width: 30px;
     height: 20px;
     
 
@@ -465,7 +467,7 @@ select{
 }
 
 .selectYourCountryInput{
-    width:489px;
+    width:350px;
     min-width: fit-content;
     border-bottom: solid white ;
 }
@@ -476,7 +478,7 @@ select{
 }
 
 .selectphonenumberInput{
-    width:100px;
+    width:50px;
     display: inline-block;
     border-bottom: solid white;
     
@@ -486,7 +488,7 @@ select{
 
 .customerphonenumebrInput{
     display: inline-block;
-    width: 359px;
+    width: 270px;
     margin-left: 30px;
     border-bottom: solid white;
 }
@@ -496,7 +498,7 @@ select{
 }
 
 .continuebutton{
-    width: 500px;
+    width: 350px;
     height: 50px;
     border-radius: 10px;
     margin: auto;
@@ -510,7 +512,7 @@ select{
     border-bottom: solid white;
 }
 
-@media screen (max-width: 375px) {
+@media screen (max-width: 400px) {
     .middleSection{
         width: 100%;
         
@@ -519,13 +521,8 @@ select{
     
 }
 
-@media screen (max-width: 500px) {
-    .middleSection{
-        width: 100%;
-        
-        
-    }
+
     
-}
+
 
 
