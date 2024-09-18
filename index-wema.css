@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+   background-color: black;
 }
 
 .container{
@@ -19,12 +20,13 @@
         
     }
     .middleSection{
-        border:solid #ab2656;
+        margin-top: 200px;
         width: 500px;
-        margin: auto;   
         max-height: max-content;
         height: 600px;
         border-radius:  30px 0;
+        
+        
         
     }
 
@@ -135,13 +137,14 @@
         color: white;
     }
     .middleSectionLogininterface{
-       
-        width: 500px;
-        margin: auto;   
+        margin-top: 50px;
+        width: 300px;
         background-color: rgba(0, 0, 0, 0.815);
         max-height: max-content;
         height: 600px;
-        padding: 10px;
+       padding-left: 10px;
+       padding-right: 10px;
+       
 
     }
     .loginLogoPage{
@@ -149,18 +152,33 @@
         justify-content: center;
         align-self: center;
         align-items: center;
-        margin-left: 180px;
+       
+        
+    }
+    #img_Pdiv p{
+        margin-left: 30px;
+    }
+    #img_Pdiv{
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-left: 30px;
+        
+    }
+    #img_Pdiv  .loginLogoPage{
+        margin-left: 100px;
         
     }
     #img_Pdiv img{
         justify-content: center;
-        
+       
     }
     #img_Pdiv p{
         text-align: center;
-       
+        align-items: center;
         font-size: xx-large;
         font-family: Arial, Helvetica, sans-serif;
+        
         
     }
     .emaildiv{
@@ -168,9 +186,9 @@
         width: max-content; 
        }
        .passworddiv{
-        
         width: max-content; 
         margin-top: 10px;
+        
         
        }
        .passworddiv input img {
@@ -185,18 +203,18 @@
        
        }
        .passworddiv input{
-        width:489px;
+        width:350px;
         min-width: fit-content;
         
        }
     label ,input {
-        width: 491px;
+        width: 350px;
         
     }
     label{
         font-size:30px;
         font-weight: 2px;
-        font-size: large;
+        font-size: small;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 50px;
         }
@@ -211,19 +229,27 @@
            font-size: large;
            box-shadow: none;
            text-shadow: none;
+           outline: none;
+           
+           }
+           #forget {
+            width: 350px;
+            text-align: end;
+            margin-top: 20px;
+            font-size: small;
+            color: #ab2656;
            
            }
 
-
-           .Forget{
-           line-height: 80px;
-           text-align: end;
-           color: #ab2656;
-         }
+          
+        
+      
+           
+         
 
 
          .loginButtonPageTwo{
-            width: 500px;
+            width: 345px;
             height: 50px;
             border-radius: 10px;
             margin: auto;
@@ -257,12 +283,13 @@
 
            }
            .middleSectiongetstartedinterface{
-            border:solid #ab2656;
-            width: 500px;
-            margin: auto;   
+            width: 400px;
             max-height: max-content;
             height: 600px;
-            border-radius:  30px 0;
+            margin-top: 170px;
+            padding: 5px;
+             
+           
            }
            .getstartedWelcomeDiv{
             display: flex;
@@ -365,14 +392,14 @@ text-decoration: underline;
 
 .buttontologindiv{
     margin-top: 30px;
-    padding: 0 10px ;
+   padding: 0px 20px 10px;
    
     
 
 }
 
 .proceedButton-GetStarted{
-    width: 480px;
+    width: 360px;
     height: 50px;
     border-radius: 10px;
     margin: auto;
@@ -380,6 +407,8 @@ text-decoration: underline;
     background-color: rgba(128, 128, 128, 0.336);
     border: none;
     font-size: small;
+    padding-left: 10px;
+    padding-right: 5px;
     
     
 }
@@ -480,3 +509,23 @@ select{
 .emailAdressInput{
     border-bottom: solid white;
 }
+
+@media screen (max-width: 375px) {
+    .middleSection{
+        width: 100%;
+        
+        
+    }
+    
+}
+
+@media screen (max-width: 500px) {
+    .middleSection{
+        width: 100%;
+        
+        
+    }
+    
+}
+
+
